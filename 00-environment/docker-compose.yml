@@ -1,0 +1,5 @@
+services:
+  netshoot: 
+    image: nicolaka/netshoot
+    container_name: env-netshoot
+    command: sleep infinity
